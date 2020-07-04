@@ -1,0 +1,15 @@
+{
+  "name": "json-rpc",
+  "version": "0.1.0",
+  "main": "src/JsonRpc.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build src/JsonRpc.ts --out-file index.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.6"
+  }
+}
